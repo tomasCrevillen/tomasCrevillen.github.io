@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dr. Teodoro Bit - Profesor de Informática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo-uni.png">
+</head>
+<body>
+    <div class="fondo"></div>
+    <header>
+        <img src="img/logo-uni.png" alt="Logo Universidad" class="logo">
+        <h1>Dr. Teodoro C. Bit</h1>
+        <h2>Profesor Titular de Informática y Tecnología</h2>
+        <nav>
+            <a href="#bio">Biografía</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="bio" class="seccion">
+            <div class="bio-contenido">
+                <img src="img/profesor.jpg" alt="Foto del Profesor" class="foto-profesor">
+                <div>
+                    <h3>Sobre mí</h3>
+                    <p>
+                        Soy el Dr. Teodoro C. Bit, apasionado por la informática desde los 8 bits. Llevo más de 25 años enseñando programación, redes y robótica en la Universidad Internacional de Pinto. 
+                        He publicado 42 artículos, dirigido 17 tesis doctorales y soy el creador del famoso algoritmo "BitSort".<br>
+                        <strong>Premios:</strong> Medalla Turing 2021, Premio Nacional de Innovación Docente 2019, Finalista Hackathon NASA 2023.
+                    </p>
+                    <ul>
+                        <li><b>Especialidades:</b> Inteligencia Artificial, Ciberseguridad, Robótica Educativa</li>
+                        <li><b>Idiomas:</b> Español, Inglés, Python, C++</li>
+                        <li><b>Hobbies:</b> Ajedrez, Arduino, coleccionar microchips antiguos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="cursos" class="seccion">
+            <h3>Cursos Impartidos</h3>
+            <table>
+                <tr>
+                    <th>Curso</th>
+                    <th>Nivel</th>
+                    <th>Año</th>
+                    <th>Enlace</th>
+                </tr>
+                <tr>
+                    <td>Programación Avanzada en Python</td>
+                    <td>Máster</td>
+                    <td>2024</td>
+                    <td><a href="#">Ver temario</a></td>
+                </tr>
+                <tr>
+                    <td>Redes y Seguridad Informática</td>
+                    <td>Grado</td>
+                    <td>2023</td>
+                    <td><a href="#">Ver temario</a></td>
+                </tr>
+                <tr>
+                    <td>Robótica con Arduino</td>
+                    <td>Grado</td>
+                    <td>2022</td>
+                    <td><a href="#">Ver temario</a></td>
+                </tr>
+            </table>
+        </section>
+        <section id="proyectos" class="seccion">
+            <h3>Proyectos Destacados</h3>
+            <div class="proyectos-grid">
+                <div class="proyecto">
+                    <img src="img/algoritmo.jpg" alt="Proyecto BitSort">
+                    <h4>BitSort</h4>
+                    <p>Algoritmo de ordenación ultrarrápido, implementado en sistemas críticos de la Agencia Espacial de Pinto.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/robot.jpg" alt="Proyecto EduBot">
+                    <h4>EduBot</h4>
+                    <p>Robot educativo para fomentar el aprendizaje STEM en colegios de la Comunidad de Madrid.</p>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ciber.jpg" alt="Proyecto CyberSafe">
+                    <h4>CyberSafe</h4>
+                    <p>Plataforma de simulación de ciberataques para formación en seguridad informática.</p>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" class="seccion">
+            <h3>Galería</h3>
+            <div class="galeria">
+                <img src="img/profesor.jpg" alt="Profesor en clase">
+                <img src="img/clase.jpg" alt="Clase de robótica">
+                <img src="img/logo-uni.png" alt="Logo Universidad">
+		<img src="img/ciber.jpg" alt="Proyecto CyberSafe">
+		<img src="img/robot.jpg" alt="Proyecto EduBot">
+		<img src="img/algoritmo.jpg" alt="Proyecto BitSort">
+            </div>
+        </section>
+        <section id="contacto" class="seccion">
+            <h3>Contacto</h3>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="redes">
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" class="icono"></a>
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" class="icono"></a>
+                <a href="#"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" class="icono"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Dr. Teodoro Bit - Universidad Internacional de Pinto</p>
+    </footer>
+</body>
+</html>
